@@ -37,7 +37,7 @@ body{
 		letter-spacing:3px;
 		
 		position: absolute;
-		top:57%;
+		top:58%;
 		left: 50%;
 		margin-right: -50%;
 		transform: translate(-50%, -50%);
@@ -50,6 +50,28 @@ body{
 	}
 	
 	#morningclouds{
+		background:url("../images/morning.png") 0 0 transparent;
+		height: 400px;
+	}
+	
+	#dayclouds{
+		background:url("../images/day.png") 0 0 transparent;
+		height: 400px;
+		
+	}
+	
+	#eveningclouds{
+		background:url("../images/evening.png") 0 0 transparent;
+		height: 400px;
+		
+	}
+	
+	#nightclouds{
+		background:url("../images/night.png") 0 0 transparent;
+		height: 400px;
+	}
+	
+	/*#morningclouds{
 		background:url("../images/smallmorning.png") 0 0 transparent;
 		height: 180px;
 	}
@@ -67,7 +89,7 @@ body{
 	#nightclouds{
 		background:url("../images/smallnight.png") 0 0 transparent;
 		height: 180px;
-	}
+	}*/
 
 @media screen and (min-width: 360px) {
 	.flex-container{
@@ -97,28 +119,7 @@ body{
 	
 	#dateDisplay{
 		font-size: 20px;
-	}
-	
-	#morningclouds{
-		background:url("../images/morning.png") 0 0 transparent;
-		height: 400px;
-	}
-	
-	#dayclouds{
-		background:url("../images/day.png") 0 0 transparent;
-		height: 400px;
-		
-	}
-	
-	#eveningclouds{
-		background:url("../images/evening.png") 0 0 transparent;
-		height: 400px;
-		
-	}
-	
-	#nightclouds{
-		background:url("../images/night.png") 0 0 transparent;
-		height: 400px;
+		top: 55%;
 	}
 	
 }
@@ -130,6 +131,7 @@ body{
 	
 	#dateDisplay{
 		font-size: 25px;
+		top: 57%;
 	}
 }
 }
