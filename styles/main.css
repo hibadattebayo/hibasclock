@@ -108,6 +108,9 @@ body{
 	width:168.5px;
 	height:190px;
 	position:absolute;
+	
+	/*SO that the cat will not start from 0%*/
+	left: -60px;
 	z-index: 2;
 }
 }

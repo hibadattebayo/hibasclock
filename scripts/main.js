@@ -43,6 +43,7 @@ showTime();
 function backgroundColor() {
 	var background = document.getElementsByTagName('body')[0];
       var currentTime = new Date().getHours();
+	  //currentTime = 23;
 	  //if the current time is smaller than/equal to zero and if the current time is less than 5 then show the colorset for the night. 
       if (0 <= currentTime&&currentTime < 5) {
        document.body.style.backgroundColor = "#401F41";
